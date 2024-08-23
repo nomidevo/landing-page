@@ -5,7 +5,7 @@
 }
 
 
-.lb-bg-color{
+.lb-bg-color {
     background: #ECF1F8;
     background: linear-gradient(180deg, white, #ECF1F8);
     padding-bottom: 120px;
@@ -42,6 +42,19 @@
 
 .fs-24 {
     font-size: 26px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fw-600 {
+    font-weight: 600 !important;
+}
+
+.pl-pr-2{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 }
 
 .image-center {
@@ -106,6 +119,7 @@
 .shadow-outset {
     box-shadow: 20px 0 51px -40px rgba(0, 0, 0, 0.2);
 }
+
 .get-start {
     color: #FFA300;
     border-color: #FFA300 !important;
@@ -116,7 +130,7 @@
     color: white;
 }
 
-.get-start-box{
+.get-start-box {
     background-color: white !important;
 }
 
@@ -143,16 +157,53 @@
 
 /* media Queries CSS  */
 
-.for-widescreen {
-    display: block;
-}
 
 @media screen and (max-width: 575px) {
     .fs-60 {
-        font-size: 40px;
+        font-size: 32px;
     }
 
     .first-banner {
-        min-height: 630px;
+        min-height: 512px;
+    }
+
+    .fs-sm-12 {
+        font-size: 12px;
+    }
+    .fs-sm-11 {
+        font-size: 12px;
+    }
+
+    .fs-sm-20 {
+        font-size: 20px !important;
+    }
+
+    .d-s-block {
+        display: block !important;
+    }
+
+    .mt-s-2 {
+        margin-top: 10px !important;
+    }
+
+    .fs-s-14 {
+        font-size: 14px;
+    }
+
+    .fs-s-16 {
+        font-size: 16px !important;
+    }
+    .fs-m-3 {
+        font-size: 45px !important;
+    }
+
+    .service .col-md-3 div{
+        text-align: center !important;
+    }
+    .p-none{
+        padding: 0 !important;
+    }
+    .text-sm-center{
+        text-align: center !important;
     }
 }
