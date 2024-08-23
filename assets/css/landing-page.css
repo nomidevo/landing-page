@@ -200,8 +200,9 @@
     .service .col-md-3 div{
         text-align: center !important;
     }
-    .p-none{
-        padding: 0 !important;
+    .pl-pr-none{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
     .text-sm-center{
         text-align: center !important;
