@@ -20,7 +20,7 @@
 /* first banner  */
 
 .first-banner {
-    background-image: url(/assets/images/banner_first_bg.png);
+    background-image: url(../images/banner_first_bg.png);
     background-size: cover;
     min-height: 900px;
 }
